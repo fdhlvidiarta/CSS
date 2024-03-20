@@ -1,0 +1,54 @@
+.header {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+}
+.header h1 {
+  color: yellow;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar {
+  float: left;
+  width: 300px;
+  height: 80%;
+  border: 2px dashed blue;
+  padding: 20px;
+  margin: 10px;
+}
+.sidebar ul {
+  font-size: 2em;
+  list-style: none;
+  padding: 0;
+}
+.sidebar a {
+  text-decoration: none;
+  color: black;
+}
+.sidebar .menu-6:hover { /*Untuk ubah warna saat di hover*/
+    color: blue;
+    font-weight: bold;
+}
+.content {
+  padding-left: 20px;
+}
+.logo {
+  text-align: center;
+  margin: 20px 0;
+}
+.logo p {
+  color: red;
+  font-size: 5mm;
+}
+.footer {
+  color: black;
+  background-color: skyblue;
+  text-align: right;
+  margin-top: 10px;
+  padding: 5px;
+}

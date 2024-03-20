@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo class selectors</title>
+    <style>
+      p {
+        display: none;
+        color: cyan;
+        background-color: black;
+        padding: 20px;
+      }
+      div:hover p {
+        /* :hover adalah CSS Pseudo Class */
+        display: block;
+      }
+
+      /*Coba buat sebuah link yang akan berubah warna ketika ada mouse 
+diatasnya menggunakan pseudo class CS*/
+    </style>
+  </head>
+  <body>
+
+    <div>
+      <a href="#">"Letakkan kursos disini untuk melihat div element"</a>
+      <p>Saya Adalah Element.</p>
+    </div>
+    
+  </body>
+</html>

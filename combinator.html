@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator Selector</title>
+    <style>
+        div p {
+            color:  red;
+        }
+        div > p{
+            background-color: yellow;
+        }
+        div + p {
+            background-color: darkcyan;
+        }
+        div ~ p{
+            color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>This is a paragraph. Berwarna merah dan background-color kuning.</p>
+        <p>This is a paragraph. Berwarna merah dan background-color kuning.</p>
+    </div>
+        <p>This is a paragraph. Berwarna cyan dan background-color dark cyan.</p>
+        <p>This is a paragraph. Berwarna cyan.</p>
+</body>
+</html>

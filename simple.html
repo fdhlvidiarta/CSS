@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Simple Selektor</title>
+    <style>
+      p {
+        text-align: center;
+        color: aqua;
+        border: 2px solid black; /* Menambahkan border */
+        background-color: #838383; /* Memodifikasi latar belakang */
+        padding: 10px; /* Menambahkan padding */
+      }
+
+      #kalimat {
+        text-align: left;
+        color: red;
+        border: 2px solid black; /* Menambahkan border */
+        background-color: #8ef08b; /* Memodifikasi latar belakang */
+        padding: 10px; /* Menambahkan padding */
+      }
+      
+      .center {
+        text-align: center;
+        color: chocolate;
+        border: 2px solid black; /* Menambahkan border */
+        background-color: #f0f8ff; /* Memodifikasi latar belakang */
+        padding: 10px; /* Menambahkan padding */
+      }
+
+      p.tengah {
+        text-align: center;
+        display: block;
+        color: darkmagenta;
+        background-color: #f0f8ff; /* Memodifikasi latar belakang */
+        border: 2px solid black; /* Menambahkan border */
+        padding: 10px; /* Menambahkan padding */
+      }
+    </style>
+  </head>
+  <body>
+    
+    <p>
+      Sangat membantu web desainer menyusun halaman yg konsisten pada proyek
+      pembuatan web.
+    </p>
+    <p id="kalimat">
+      Dalam penulisan CSS sangat sederhana namun powerful dalam desain.
+    </p>
+    <p class="center">
+      CSS mempunyai sifat pewarisan secara default style anak akan mewarisi style dari parent kecuali anak mendeskripsikan stylenya sendiri.
+    </p>
+    <p class="tengah">
+      Ini adalah hasil selector dengan elemen p dengan class tengah.
+    </p>
+
+  </body>
+</html>
